@@ -1,0 +1,19 @@
+Day la cach thu 1 cua dung Git. Dung qua command line. Đã có sẵn sau khi cài Git. Một số lệnh chính:
+- git clone <đường dẫn đến git repo> : Cái này dùng để sao chép repo (thư mục chứa source code trên Githup) về. Cái này chỉ gọi lần đầu tiên để down về thôi
+- git pull : cái này dùng để update code về. Các bạn khác commit code lên thì mình cần phải dùng git pull để download về
+- git add : lệnh này để index file. Tức là đánh dấu file nào sẽ được đưa lên githup. Khi mình tạo file mới, muốn đưa lên githup, thì phải dùng lệnh này.
+- git commit -m <chú thích nội dung commit> : lệnh này sẽ đưa file vào 1 vùng chứa trên máy tính hiện tại, để đó, chờ lệnh push.
+- git push : đẩy file lên githup.
+
+Muốn chạy lệnh git được thì phải vào bên trong thư mục mới clone về. (Thư mục đó sẽ chứa 1 folder là .git. Folder này sẽ chứa thông tin mô tả để Git hoạt động)
+
+Xem anh ví dụ đây.
+Hiện chữ up to date nghĩa là mới nhất rồi. Không có cập nhật gì.
+Trước khi mình code, nhớ update về trước để code mình mới nhất. Tránh chuyện mình code 1 ít rồi nhưng chưa push lên server (githup), update về thấy bạn cũng có sửa
+và sửa đúng cái file mình code. Khi đó sẽ xảy ra conflict (đụng độ). Xử lý đụng độ khá rắc rối. Anh sẽ chỉ sau.
+
+Anh vừa thêm file mới. Sẽ add nó vào git.
+ 
+
+Cách thứ 2 là qua phần mềm Source Tree. Dễ sử dụng hơn. (cài đặt sau).
+Nhưng cách nào thì nó vẫn dựa trên các lệnh cơ bản của nó. Phần mềm Source Tree nó làm thay mình. Nên hiểu rõ lệnh thì dùng Source Tree sẽ rất dễ.
